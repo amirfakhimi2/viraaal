@@ -34,7 +34,7 @@ body {
 .container {
   position: absolute;
   background-color: #596e73;
-  height: 720px;
+  height: 100%;
   width: 1280px;
 }
 
