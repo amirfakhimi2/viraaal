@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+
+    <meta charset="utf-8">
+  
+  <script src="node_modules/@mediapipe/camera_utils/camera_utils.js"></script>
+  <script src="node_modules/@mediapipe/control_utils/control_utils.js"></script>
+  <script src="node_modules/@mediapipe/drawing_utils/drawing_utils.js"></script>
+  <script src="node_modules/@mediapipe/pose/pose.js"></script>
+<link rel="stylesheet" href="./style.css">
+
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+    <video class="input_video"></video>
+    <canvas class="output_canvas" width="1380px" height="720px"></canvas>
+    <div class="loading">
+      <div class="spinner"></div>
+      <div class="message">
+        Loading
+      </div>
+    </div>
+
+    <div hidden class="shoutout">
+      <div>
+      </div>
+      <div>
+        </a>
+      </div>
+    </div>
+  </div>
+  <p aria-hidden="true"> <div hidden class="control-panel"></div>
+  </p>
+  </div>
+</body>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
