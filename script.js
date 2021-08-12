@@ -66,7 +66,7 @@ camera.start();
 // options.
 new ControlPanel(controlsElement, {
   selfieMode: true,
-  upperBodyOnly: true,
+  upperBodyOnly: false,
   smoothLandmarks: true,
   minDetectionConfidence: 0.5,
   minTrackingConfidence: 0.5,
